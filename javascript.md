@@ -26,7 +26,9 @@ arr.sort((a, b) => b - a); // [7, 4, 3]
 const sorted = [...arr].sort((a, b) => a - b);
 
 // Array of zeros
-const arr = Array(3).fill(0); // [0, 0, 0]
+const a = Array(3).fill(0); // [0, 0, 0]
+// (Faster) Array of zeros
+let a = new Array(3); for (let i=0; i<n; ++i) a[i] = 0;
 
 // Add/remove elements by mutating original array
 [1, 2, 3].push(4); // [1, 2, 3, 4]
