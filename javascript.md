@@ -38,6 +38,9 @@ let a = new Array(3); for (let i=0; i<n; ++i) a[i] = 0;
 
 // convert to string
 [1, 2, 3].join(" "); // "1 2 3"
+
+// get elements of array that satisfy a condition
+[{a:0,b:1}, {a:2,b:3}].find(({ a }) => a === 0); // {a:0,b:1}
 ```
 
 ## Objects
