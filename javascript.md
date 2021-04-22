@@ -73,6 +73,9 @@ map.has(0); // true
 
 // get value of a key
 map.get(0); // 42
+
+// delete entry from map
+map.delete(0); // removes (0, 42) from map
 ```
 
 ## Math
