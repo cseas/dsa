@@ -68,7 +68,7 @@ const map = new Map();
 // store key, value pair
 map.set(0, 42);
 
-// check if map has a key
+// check if map has a key: O(1)
 map.has(0); // true
 
 // get value of a key
@@ -76,6 +76,9 @@ map.get(0); // 42
 
 // delete entry from map
 map.delete(0); // removes (0, 42) from map
+
+// check if map has a value: O(n)
+Array.from(map.values()).includes(42); // true
 ```
 
 ## Math
