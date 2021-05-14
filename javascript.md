@@ -98,4 +98,8 @@ Math.sqrt(4); // 2
 // search substring index
 "abcd".search("cd"); // 2
 "abcd".search("e"); // -1
+
+// compare two strings
+"a".localeCompare("b"); // -1
+"ca".localeCompare("b"); // 1
 ```
